@@ -22,7 +22,7 @@ This will install NCurses and set it on the user path
 
 To run the program we need to enter this in terminal (We need to link the ncurses library to our program)
 ```
-gcc -o <filename.out> <filename.c> -lncurses
+gcc -o <filename.out> <filename.c> -lncurses && ./<filename.out>
 ```
 
 ### 2. Further scope and compatibility issues
