@@ -1,29 +1,45 @@
-# matt-the-matrix-guy
-A CLI based virtual assistant that takes you through matrix computations easily
+```
+   __  ___     __  __    __  __                    __      _                      
+  /  |/  /__ _/ /_/ /_  / /_/ /  ___   __ _  ___ _/ /_____(_)_ __  ___ ___ ____ __
+ / /|_/ / _ `/ __/ __/ / __/ _ \/ -_) /  ' \/ _ `/ __/ __/ /\ \ / / _ `/ // / // /
+/_/  /_/\_,_/\__/\__/  \__/_//_/\__/ /_/_/_/\_,_/\__/_/ /_//_\_\  \_, /\_,_/\_, / 
+                                                                 /___/     /___/  
+```
+A Command Line based software which does matrix computations easily
 
-## Dependency : Ncurses - Setup and Running the Program
-### 1. MacOS installation
-- First we will find out our compiler's includePath
-```
-gcc -x c -v -E /dev/null
-```
+## Features
+- I/O of matrix from and to a file
+- Determinant
+- Minor
+- Cofactor
+- Adjoint
+- Inverse
+- Linear equation solver
+- Displaying the matrix
 
-- Then we will install ncurses using brew
+## Installation
+- Install the ```main.c``` file and type on the terminal as follows
 ```
-brew install ncurses
+% gcc -o main main.c
 ```
+- Then run the program as follows
+```
+% ./main
+```
+- Ideal enviroment for the code is VS Code on a mac
 
-- Finally we copy the ncurses file from brew path to our includePath
-```
-cp -R /opt/homebrew/Cellar/ncurses/6.4 /Library/Developer/CommandLineTools/usr/include
-```
+## Limitations
+- Recursive determinant functions limits the dimension of the matrix upto a realistic maximum of 20x20
+- Non-square matrix is not supported currently
+- Linear equations possible upto only 3 variables
 
-This will install NCurses and set it on the user path
+## Dependencies
+- User input during linear equations should be specific
+- Constant user input required for choices
+- Correct filenames should be entered
 
-To run the program we need to enter this in terminal (We need to link the ncurses library to our program)
-```
-gcc -o <filename.out> <filename.c> -lncurses && ./<filename.out>
-```
-
-### 2. Further scope and compatibility issues
-- Windows support can have ``` <conio.h> ```
+## Further scope 
+- More efficient nxn determinant algorithms like LU decomposition
+- A proper Command Line UI using ```<ncurses.h>```
+- String tokens being used for parsin/lexing for linear equations
+- Eigenvalues, Eigenvectors and Diagonalisation of matrix
