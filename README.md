@@ -18,6 +18,7 @@ A Command Line based software which does matrix computations easily
 - Displaying the matrix
 
 ## Installation
+- MAC OS IS PREFERRED
 - Install the ```main.c``` file and type on the terminal as follows
 ```
 % gcc -o main main.c
@@ -26,6 +27,7 @@ A Command Line based software which does matrix computations easily
 ```
 % ./main
 ```
+- The program requires input and output files in the same branch
 - Ideal enviroment for the code is VS Code on a mac
 
 ## Screenshots
@@ -41,6 +43,7 @@ A Command Line based software which does matrix computations easily
 - Recursive determinant functions limits the dimension of the matrix upto a realistic maximum of 20x20
 - Non-square matrix is not supported currently
 - Linear equations possible upto only 3 variables
+- Minor inconvinience, Some functions like ```system("clear")``` work for UNIX-like systems and not windows, for windows it would be ```system("cls")``` which is not present in the code; It would affect the code visually
 
 ## Dependencies
 - User input during linear equations should be specific
