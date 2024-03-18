@@ -53,5 +53,6 @@ A Command Line based software which does matrix computations easily
 ## Further scope 
 - More efficient nxn determinant algorithms like LU decomposition
 - A proper Command Line UI using ```<ncurses.h>```
-- String tokens being used for parsin/lexing for linear equations
+- String tokens being used for parsing/lexing for linear equations
 - Eigenvalues, Eigenvectors and Diagonalisation of matrix
+- matrixScript - an interpreter language for matrix manipulations 
