@@ -376,7 +376,6 @@ int main(void){
         
         printf("\033[32;4mDETERMINANT RELATED:");
         printf("\033[0m 1.Determinant | 2.Minor | 3.Cofactor | 4.Adjoint | 5.Inverse\n");
-        printf("\033[32;4mEIGEN OPS:");
         printf("\033[32;4mLINEAR EQNS:");
         printf("\033[0m 6.Solver\t");
         printf("\033[31m*for 2 or 3 variables\n");
