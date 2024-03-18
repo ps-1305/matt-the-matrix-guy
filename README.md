@@ -28,6 +28,15 @@ A Command Line based software which does matrix computations easily
 ```
 - Ideal enviroment for the code is VS Code on a mac
 
+## Screenshots
+<p>
+   <img src="https://github.com/ps-1305/matt-the-matrix-guy/blob/main/screenshots/ics-screenshot-1.png" height=700 width=1000>
+   <img src="https://github.com/ps-1305/matt-the-matrix-guy/blob/main/screenshots/ics-screenshot-3.png" height=300 width=550>
+   <img src="https://github.com/ps-1305/matt-the-matrix-guy/blob/main/screenshots/ics-screenshot-4.png" height=300 width=450>
+   <img src="https://github.com/ps-1305/matt-the-matrix-guy/blob/main/screenshots/ics-screenshot-2.png" height=300 width=1000>
+</p>
+
+
 ## Limitations
 - Recursive determinant functions limits the dimension of the matrix upto a realistic maximum of 20x20
 - Non-square matrix is not supported currently
